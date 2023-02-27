@@ -7,11 +7,11 @@ from tqdm import tqdm
 
 import librosa
 
-
 DST_SPEC = 'spectrograms'
 DST_MELSPECS = 'melspectrograms'
 DST_MFCC = 'mfcc'
 
+print("Hello, World!")
 
 def extract_spectrogram(y, sr=8000, n_fft=None) -> np.array:
 	'''
